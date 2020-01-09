@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 3000px;
+    background-color: #252525;
+}
+
+.clear{
+    clear: both;
+}
+
+.barre{
+    color:#dab12d;
+    font-size: 22px;
+}
+
+nav{
+    background-color: rgba(0, 8, 12, 0.925);
+    padding: 0 0;
+    position: fixed;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    background-color: rgba(0, 8, 12, 0.925);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 5px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgba(0, 8, 12, 0.925);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+
+header{
+    height: 735px;
+    background:url("images/maquettes_1.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sections{
+
+    width: 80%;
+    height: 80%;
+    margin: 0px 10%;
+}
+
+h1{
+    margin:0;
+    padding: 20px;
+    color: orange;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0px 20px 20px;
+}
+
+#section-1{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: whitesmoke;
+}
+
+.section-divider{
+    background-color: #65C1BE;
+    padding: 7px;
+    border-radius: 20px 20px;
+}
+
+#section-2{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: whitesmoke;
+}
+
+#section-3{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: whitesmoke;
+    margin-bottom: 22px;
+}
+
+#section-3 img{
+    width: 47.4%;;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+#section-4{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: whitesmoke;
+    margin-bottom: 22px;
+    height: 650px;
+}
+
+#section-4 img{
+    margin: 20px;
+    margin-top: 0px;
+    float:left;
+}
+
+#maptourtext{
+    float:left;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: #252525;
+}
+
+#section-5{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+#section-5 img{
+    margin-left: 78px;
+}
+
+footer{
+    background-color: #1a1a1a;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: -3570px;
+    border-top: 5px solid orange;
+}
+
+#button-haut{
+    position: fixed;
+    bottom: 80px;
+    right: 75px;
+    text-decoration: none;
+}
+
+#button-haut a{
+    color: orange;
+}
