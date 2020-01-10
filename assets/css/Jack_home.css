@@ -122,6 +122,7 @@ nav{
 #section-1-box{
     border: 0px solid transparent;
     overflow: hidden;
+    clear: both;
 }
 
 #section-1{
