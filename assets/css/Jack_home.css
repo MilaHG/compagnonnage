@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #252525;
+}
+
+html{
+    height: 0px;
+}
+
+nav{
+    background-color: #252525;
+    width: 100%;
+    height: 49px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #252525;
+    display: block;
+    padding: 15px;
+}
+
+#menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+}
+
+#menu li{
+    list-style: none;
+    position:relative;
+    text-align: center;
+    width: 15%;
+    float:left;
+}
+
+#menu ul li{
+    display:inherit;
+    border-radius:0;
+    width: 100%;
+}
+
+#menu ul li:hover{
+    border-radius:0;
+}
+
+#menu a:hover{
+    color: orange;
+    background-color: #181818;
+}
+
+#menu ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+}
+
+#menu li:hover ul{
+    max-height:25em;
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+#middle-up{
+    margin-left: 18%;
+}
+
+#language{
+    margin-right: 0%;
+}
+
+#language a,p{
+    float:right;
+    vertical-align: middle;
+    width: 21px;
+}
+
+#language p{
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    background-color: orange;
+    height: 29px;
+}
+
+#language a:hover{
+    border: none;
+    background-color: #181818;
+}
+
+#home{
+    float:left;
+    width: 53px !important;
+}
+
+#home a{
+    padding: 10px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    height: 29px;
+    width: 21px;
+}
+
+#section-1-box{
+    border: 0px solid transparent;
+    overflow: hidden;
+    clear: both;
+}
+
+#section-1{
+    background-image: url("../img/maquettes_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:-650px;
+    height: 220px;
+    z-index: 3;
+}
+
+#section-1 a:hover{
+    transition-duration: 1s;
+    transform: scale(1.10);
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    background-color: #252525a6;
+    color:orange;
+}
+
+#section-1 a{
+    color: white;
+    text-decoration: 1px solid #252525;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 45px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 82.3px 0px;
+    filter: none;
+    backdrop-filter: blur(5px);
+    background-color: #25252571;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+}
+
+#section-2-box{
+    border: 0px solid transparent;
+    overflow: hidden;
+}
+
+#section-2{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:-490px;
+    height: 220px;
+    z-index: 3;
+}
+
+#section-2 a:hover{
+    transition-duration: 1s;
+    transform: scale(1.10);
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    background-color: #252525a6;
+    color: orange;
+}
+
+#section-2 a{
+    color: white;
+    text-decoration: 1px solid #252525;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 45px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 82.3px 0px;
+    filter: none;
+    backdrop-filter: blur(5px);
+    background-color: #25252571;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+}
+
+#section-3-box{
+    border: 0px solid transparent;
+    overflow: hidden;
+}
+
+#section-3{
+    background-image: url("../img/65.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:-730px;
+    height: 220px;
+    z-index: 3;
+}
+
+#section-3 a:hover{
+    transition-duration: 1s;
+    transform: scale(1.10);
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    background-color: #252525a6;
+    color: orange;
+}
+
+#section-3 a{
+    color: white;
+    text-decoration: 1px solid #252525;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 45px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 82.3px 0px;
+    filter: none;
+    backdrop-filter: blur(5px);
+    background-color: #25252571;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+}
+
+#section-4{
+    width: 80%;
+    margin: auto;
+    background: #222f3e;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#section-4 h1{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#section-4 p{
+    display: inline-block;
+    width: 70%;
+    float: none;
+    vertical-align: top;
+    margin-left: 20px;
+}
