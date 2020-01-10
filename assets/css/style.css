@@ -128,7 +128,7 @@ a {
 .home-body {
   padding-top: 1em;
   text-align: center;
-  background: url("https://cdn.glitch.com/a432f047-8ce8-41c0-969c-2aa62a374173%2FIMG_4259.jpg?v=1575400763251") rgba(99, 110, 114, 1) no-repeat center fixed;
+  background: url("../img/maquettes_1.jpg") rgba(99, 110, 114, 1) no-repeat center fixed;
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
