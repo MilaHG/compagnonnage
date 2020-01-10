@@ -101,16 +101,29 @@ header h1:hover{
 }
 
 
-.d1:hover{
-    animation-play-state: paused;
-}
-@keyframes fondu{   0%{background-image: url("https://static.wixstatic.com/media/06ad19_e0758c37c2674354b1608ec8ea62e57d~mv2_d_3000_2000_s_2.jpg/v1/fill/w_1600,h_1066,al_c,q_90/file.jpg") ; background-repeat: no-repeat; }
 
-    33.33%{background-image: url("http://www.leparisien.fr/resizer/TbZNooMvfy_v2MI0OqxPdGQLI48=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/QOFRAN75EHD3OB4Z42GPRFRMGY.jpg"); background-repeat: no-repeat;}
-
-    66.67%{background-image: url("https://www.moebelfertigung.com/system/uploads/image/image/818/news_huge_image.jpg");background-repeat: no-repeat;}
-    100%{background-image: url("https://cdn-s-www.bienpublic.com/images/68256C9E-053D-40A4-B43C-1B96A4497D15/NW_raw/a-l-atelier-des-charpentiers-les-compagnons-du-devoir-de-la-maison-de-troyes-sont-alles-recuperer-des-souches-et-les-ont-rendues-carrees-afin-de-realiser-un-assemblage-l-occasion-d-expliquer-les-bases-du-metier-photo-lbp-dominique-ragot-1558883291.jpg"); background-repeat: no-repeat;}
-}
+@keyframes AutoSlide {
+    0% {
+        left: 0px; /1ère image/
+    }
+    15% {
+        left: 0px; /idem pour attente/
+    }
+    35% {
+        left: -500px; /2ème image/
+    }
+    50% {
+        left: -500px; /idem pour attente/
+    }
+    70% {
+        left: -1000px; /3ème image/
+    }
+    85% {
+        left: -1000px; /idem pour attente/
+    }
+    100% {
+        left: 0px; /1ère image/
+    }
 h1 a {
     color: rgb(255, 255, 255);
     cursor: pointer;
