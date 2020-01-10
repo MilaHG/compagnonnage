@@ -23,14 +23,14 @@
         <h1>Gestionnaire de fichiers</h1>
         <div class="box-box">
             <ul>
-                <li><a href="Hugo_index.html">Page d'accueil Hugo</a></li>
+                <li><a href="Hugo_home.html">Page d'accueil Hugo</a></li>
                 <li><a href="Jack_home.html">Page d'accueil Jack</a></li>
                 <li><a href="Louis_index.html">Page d'accueil Louis</a></li>
-                <li><a href="Med_index_Accueil.html">Page d'accueil Mohamed</a></li>
+                <li><a href="Med_Index_Accueil.html">Page d'accueil Mohamed</a></li>
             </ul>
             <br>
             <ul>
-                <li><a href="content/404.html">Index Hugo</a></li>
+                <li><a href="content/Hugo_index.html">Index Hugo</a></li>
                 <li><a href="content/Jack_index.html">Index Jack</a></li>
                 <li><a href="content/Louis_home.html">Index Louis</a></li>
                 <li><a href="content/Med-index.html">Index Mohamed</a></li>
