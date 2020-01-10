@@ -1,7 +1,9 @@
 Projet Campgnonnage
 =================
 
-[Voir le projet en ligne \ ゜o゜)ノ](https://campagnonnage.netlify.com/)
+[Voir le projet en ligne \ ゜o゜)ノ](https://compagnonnage.netlify.com/)
+
+Statue : [![Netlify Status](https://api.netlify.com/api/v1/badges/3f08cb46-42da-4301-9726-fa67f5e9d432/deploy-status)](https://app.netlify.com/sites/compagnonnage/deploys)
 
 En bref,
 =================
