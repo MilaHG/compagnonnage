@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/Jack_home.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62c3447164.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+            <li id="home">
+                <a href="#" style="color:cyan"><i class="fas fa-home"></i></a>
+            </li>
+            <li class="deroulant" id="middle-up"><a href="Jack_index.html">Le compagnonnage ?</a>
+                <ul>
+                    <li><a href="Jack_index.html">Qu'est-ce que le compagnonnage ?</a></li>
+                    <li><a href="Jack_index.html">Les fondements du compagnonnage</a></li>
+                    <li><a href="Jack_index.html">La transmission d'un savoir-faire</a></li>
+                    <li><a href="Jack_index.html">Le tour de France</a></li>
+                    <li><a href="Jack_index.html">Le chef d'oeuvre</a></li>
+                    <li><a href="Jack_index.html">L'hébergement</a></li>
+                </ul>
+            </li>
+            <li><a href="Med-index.html">Les métiers</a></li>
+            <li><a href="Louis_index.html">Les symboles</a></li>
+            <li id="language" style="float:right;">
+                <a href="#">EN</a>
+                <p style="color: #252525;">|</p>
+                <a href="#" style="color: cyan;">FR</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="section-1-box">
+        <div id="section-1">
+            <div class="section-1-rect"></div>
+            <a href="#">Le compagnonnage ?</a>
+        </div>
+    </div>
+    <div id="section-2-box">
+        <div id="section-2">
+            <a href="#">Les métiers</a>
+        </div>
+    </div>
+    <div id="section-3-box">
+        <div id="section-3">
+            <a href="#">Les symboles</a>
+        </div>
+    </div>
+    <div id="section-4">
+        <h1>Son histoire :</h1>
+        <p>Le compagnonnage est la forme la plus ancienne de défense des travailleurs qui remonte au moins au XVème siècle. Les compagnons tendent alors à se grouper dans des associations d'entraide parallèles et plus ou moins clandestines, les « compagnonnages » afin aussi de se défendre contre les maîtres des corporations qui contrôlent et régissent les embauches. <br>
+        Interdit à la Révolution française, le compagnonnage réussit néanmoins à perdurer. Au début du XIXème siècle, le mouvement est à son apogée avec 200 000 membres. Il décline au XIXème siècle avec l’essor de l’industrie qui emploie des ouvriers peu qualifiés et l’apparition des syndicats. <br>
+        Il connaît aujourd’hui un véritable renouveau. On compte aujourd’hui en France 15 000 compagnons et le compagnonnage français a même été inscrit au patrimoine culturel immatériel de l'humanité en 2010 sous le titre « Le compagnonnage, réseau de transmission des savoirs et des identités par le métier », un moyen unique de transmettre des savoirs et savoir-faire».</p>
+    </div>
+    <footer>
+        <h5 style="float: right;margin-right: 30px;">© 2020 / By Jack_Lecomte</h5>
+    </footer>
+</body>
+</html>
