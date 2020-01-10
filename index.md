@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/Jack_home.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/Jack_home.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/62c3447164.js" crossorigin="anonymous"></script>
 </head>
@@ -37,17 +37,17 @@
     <div id="section-1-box">
         <div id="section-1">
             <div class="section-1-rect"></div>
-            <a href="Jack_index.html">Le compagnonnage ?</a>
+            <a href="#">Le compagnonnage ?</a>
         </div>
     </div>
     <div id="section-2-box">
         <div id="section-2">
-            <a href="Med-index.html">Les métiers</a>
+            <a href="#">Les métiers</a>
         </div>
     </div>
     <div id="section-3-box">
         <div id="section-3">
-            <a href="Louis_index.html">Les symboles</a>
+            <a href="#">Les symboles</a>
         </div>
     </div>
     <div id="section-4">
