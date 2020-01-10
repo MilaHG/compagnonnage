@@ -21,9 +21,8 @@
 <body>
     <div class="box">
         <h1>Gestionnaire de fichiers</h1>
-	<div class="box-box">
-            <ol>
-                <li><a href="Hugo_index.html">Page d'accueil Hugo</a></li>
+        <div class="box-box">
+            <ul>
                 <li><a href="Jack_home.html">Page d'accueil Jack</a></li>
                 <li><a href="Louis_index.html">Page d'accueil Louis</a></li>
                 <li><a href="Med_index_Accueil.html">Page d'accueil Mohamed</a></li>
@@ -34,7 +33,11 @@
                 <li><a href="content/Jack_index.html">Index Jack</a></li>
                 <li><a href="content/Louis_home.html">Index Louis</a></li>
                 <li><a href="content/Med-index.html">Index Mohamed</a></li>
-            </ol>
+            </ul>
+            <br>
+            <ul>
+                <li><a href="content/hugo_devenir.html">Devenir Hugo</a></li>
+            </ul>
         </div>
     </div>
 </body>

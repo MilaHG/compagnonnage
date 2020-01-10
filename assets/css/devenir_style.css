@@ -1,9 +1,10 @@
 body{
-    
+     background: url(../img/Bg.png) no-repeat center fixed ; 
+     background-size: cover;
 }
 header{
-    background: url(../img/Bg.png) no-repeat;
-    background-size: cover;
+   
+   
     background-position-y: center;
     width: 100%;
     height: 500px;
@@ -70,6 +71,7 @@ header h1:hover{
     height: 750px;
     top: -354px;
     position: relative;
+    left: 50px;
 }
 .d1{
     width: 668px;
@@ -78,7 +80,7 @@ header h1:hover{
     position: relative;
     top: -1005px;
     left: 378px;
-    background-color: #ffffff;
+    background-color: transparent;
     background-size: contain;
     animation: fondu 15s ease-in-out infinite both;
 }
@@ -95,7 +97,7 @@ header h1:hover{
     100%{background-image: url("https://cdn-s-www.bienpublic.com/images/68256C9E-053D-40A4-B43C-1B96A4497D15/NW_raw/a-l-atelier-des-charpentiers-les-compagnons-du-devoir-de-la-maison-de-troyes-sont-alles-recuperer-des-souches-et-les-ont-rendues-carrees-afin-de-realiser-un-assemblage-l-occasion-d-expliquer-les-bases-du-metier-photo-lbp-dominique-ragot-1558883291.jpg"); background-repeat: no-repeat;}
 }
 h1 a {
-    color: grey;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     text-decoration: none;
 }
