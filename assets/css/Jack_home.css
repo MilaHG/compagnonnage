@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #252525;
+    background-color: orange;
 }
 
 nav{
@@ -235,10 +235,24 @@ nav{
     transition-duration: .8s;
 }
 
+#section-4{
+    width: 80%;
+    margin: auto;
+    background: #252525;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
 #section-4 h1{
     display: inline-block;
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
 #section-4 p{
     display: inline-block;
+    width: 70%;
+    float: none;
+    vertical-align: top;
+    margin-left: 20px;
 }
