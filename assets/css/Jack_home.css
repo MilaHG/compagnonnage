@@ -4,6 +4,10 @@ body{
     background-color: orange;
 }
 
+html{
+    height: 0px;
+}
+
 nav{
     background-color: orange;
     width: 100%;
