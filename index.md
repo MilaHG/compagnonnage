@@ -21,7 +21,7 @@
 <body>
     <div class="box">
         <h1>Gestionnaire de fichiers</h1>
-        <div class="box-box">
+	<div class="box-box">
             <ol>
                 <li><a href="Hugo_index.html">Page d'accueil Hugo</a></li>
                 <li><a href="Jack_home.html">Page d'accueil Jack</a></li>
