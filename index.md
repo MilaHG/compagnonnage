@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/Jack_home.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/62c3447164.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154959935-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154959935-2');
+    </script>
 </head>
 <body>
     <nav>
