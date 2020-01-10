@@ -1,21 +1,163 @@
-.d1{
-    width: 576px;
-    height: 432px;
-    margin: 50px auto;
+#footer{
+    position: relative;
+    top: -72px;
+}
+
+body{
+    margin: 0;
+    background-color:rgb(218, 214, 214) ;
+}
+nav{
+    
+    margin-top: 0;
+    list-style: none;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: 80px;
+
+}
+a{
+     text-decoration: none;
+    color: rgb(218, 214, 214);
+        list-style: none;
+        margin: 56px;
+        text-align: center;
+        font-size: 50px;
+}
+a:hover{
+  color: #5bc0be;
+  border-bottom: #5bc0be 3px solid ;
+}
+.navdiv{
+    display: inline-block;
+}
+.flou{
+    width: 100%;
+    height: 708px;
+    
+}
+#titre{
+    font-family: 'Noto Serif', serif;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    position: relative;
+    top: -439px;;
+    left: 461px;
+    margin-right: 470px;
+}
+#container1{
+    width:1250px;
    
     background-color: rgb(255, 255, 255);
-    background-size: contain;
-    animation: fondu 15s ease-in-out infinite both;
+    border-radius: 15px;
+    border: rgb(10, 9, 9) solid 2px;
+    margin-left: 327px;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
-
-
-.d1:hover{
-    animation-play-state: paused;
+.titre{
+    margin-left: 5%;
+    font-size: x-large;
 }
-@keyframes fondu{   0%{background-image: url("https://static.wixstatic.com/media/06ad19_e0758c37c2674354b1608ec8ea62e57d~mv2_d_3000_2000_s_2.jpg/v1/fill/w_1600,h_1066,al_c,q_90/file.jpg") ; background-repeat: no-repeat; }
+.text{
+    width: 18%;
+    margin-left: 5%;
+    float: left;
+    font-family: 'Courier Prime', monospace;
+    font-size: 17px;
 
-    33.33%{background-image: url("http://www.leparisien.fr/resizer/TbZNooMvfy_v2MI0OqxPdGQLI48=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/QOFRAN75EHD3OB4Z42GPRFRMGY.jpg"); background-repeat: no-repeat;}
+}
+.titre2{
+    margin-left: 28%;
+    font-size: x-large;
+    margin-top: -43px;
+}
+.text2{
+    width: 29%;
+    margin-left: 5%;
+    float: left;
+    font-family: 'Courier Prime', monospace;
+    font-size: 17px;
 
-    66.67%{background-image: url("https://www.moebelfertigung.com/system/uploads/image/image/818/news_huge_image.jpg");background-repeat: no-repeat;}
-    100%{background-image: url("https://cdn-s-www.bienpublic.com/images/68256C9E-053D-40A4-B43C-1B96A4497D15/NW_raw/a-l-atelier-des-charpentiers-les-compagnons-du-devoir-de-la-maison-de-troyes-sont-alles-recuperer-des-souches-et-les-ont-rendues-carrees-afin-de-realiser-un-assemblage-l-occasion-d-expliquer-les-bases-du-metier-photo-lbp-dominique-ragot-1558883291.jpg"); background-repeat: no-repeat;}
+}
+#mere{
+    
+    margin-left: 77%;
+    margin-top: -11px;
+    
+}
+#photomere{
+    width: 200px;
+    height: 300px;
+}
+.nomimg{
+    text-decoration: underline; 
+    margin-left: 75%;
+
+}
+.italic{
+    font-style: italic;
+    
+}
+.textita{
+    margin-left: 74%;
+
+}
+#maisonimg{
+    width: 500px;
+    height: 300px;
+    margin-top: -110px;
+    margin-left: 67px;
+}
+.nomimg2{
+    text-decoration: underline; 
+    margin-left: 6%;
+}
+#imgfoot{
+    width: 100%;
+    position: relative;
+    top: 276px;
+}
+#map{
+    position: absolute;
+    top: 293px;
+    z-index: 1;
+    right: 352px;
+    width: 300px;
+    height: 200px;
+}
+.titrecontact{
+    font-size: 1.8em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    border-bottom: 1px solid #929292;
+    padding-bottom: 10px;
+    position: relative;
+    top: -34px;
+    margin-right: 1007px;
+    margin-left: 50px;
+}
+#bloccontact{
+    width: 300px;
+    left: 1586px;
+    position: relative;
+}
+#contentcontact{
+    top: -57px;
+    position: relative;
+    color: #fff;
+}
+.hr{
+    position: relative;
+    top: -72px;
+}
+#footer{
+    margin-top: -14px;
+    
+}
+.img4{
+    margin-left: 75px;
+    float: left;
 }
