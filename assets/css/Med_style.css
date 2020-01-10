@@ -104,17 +104,19 @@ header h1:hover{
 }
 
 
-
+/* Le CSS le l'animation est la */
 .IMGanimation{
-    position: relative;
     width: 500px;
     height: 300px;
     border-radius: 14px;
     box-shadow: 0 0 10px 0 gray;
     overflow: hidden;
+    float: right;
+
+    /* pour le positioner */
+    position: relative;
     right: 100px;
     top: 70px;
-    float: right;
 }
 .IMGanimationListe{
     position: relative;
@@ -131,6 +133,9 @@ header h1:hover{
 .IMGanimationListe li{
     float: left;
 }
+/* jusqu'à la*/
+
+
 
 
 
