@@ -3,6 +3,9 @@ Projet Campgnonnage
 
 [Voir le projet en ligne \ ゜o゜)ノ](https://milahg.github.io/)
 
+En bref,
+=================
+
 Ce projet est créé a **Eden School** a Paris dans le 17eme.
 
 Plus d'informations sur [Le site d'Eden School](https://www.edenschool.fr/).
