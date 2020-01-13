@@ -2,6 +2,8 @@ Projet Compagnonnage
 =================
 
 [Voir le projet en ligne \ ゜o゜)ノ](https://compagnonnage.netlify.com/)
+[Voir le projet en ligne \ ゜o゜)ノ](http://compagnonnage.tk/)
+
 
 Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/3f08cb46-42da-4301-9726-fa67f5e9d432/deploy-status)](https://app.netlify.com/sites/compagnonnage/deploys)
 
