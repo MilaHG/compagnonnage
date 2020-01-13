@@ -115,7 +115,7 @@ a:hover{
 #maisonimg{
     width: 500px;
     height: 300px;
-    margin-top: -110px;
+    /* margin-top: -110px; */
     margin-left: 67px;
 }
 .nomimg2{
@@ -167,7 +167,7 @@ a:hover{
 #contentcontact{
     /* top: -57px;
     position: relative; */
-    color: #fff;
+    color: black;
 }
 .hr{
     position: relative;
