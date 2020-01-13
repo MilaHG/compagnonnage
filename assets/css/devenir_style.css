@@ -1,10 +1,9 @@
 body{
-     background: url(../img/Bg.png) no-repeat center fixed ; 
+    background-color: #16202A;
+     
      background-size: cover;
 }
 header{
-   
-   
     background-position-y: center;
     width: 100%;
     height: 500px;
@@ -99,7 +98,8 @@ header h1:hover{
 .IMGanimationListe li{
     float: left;
 }
-
+a:-webkit-any-link {
+color: aliceblue}
 
 
 @keyframes AutoSlide {
