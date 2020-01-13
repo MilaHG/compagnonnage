@@ -1,8 +1,6 @@
 Projet Compagnonnage
 =================
 
-[Voir le projet en ligne \ ゜o゜)ノ](https://compagnonnage.netlify.com/)
-
 [Voir le projet en ligne \ ゜o゜)ノ](http://compagnonnage.tk/)
 
 
