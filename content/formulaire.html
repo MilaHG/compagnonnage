@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Compagnonnage</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- import FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/a7b6f2e73a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154959935-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154959935-2');
+    </script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Accueil</a>
+      <a href="#maps">Y aller</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="header-1">
+      <h1>
+        Devenir Compagnon
+      </h1>
+    </div>
+    <div class="text">
+      <h1>
+        <mark class="text-title">Devenir...</mark>
+      </h1>
+      
+      <h2 class="text-text">
+        <form name="contact" netlify>
+            <p>
+              <label>Nom <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Prénom <input type="text" name="prenom" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Date de naissance <input type="text" name="naissance" /></label>
+            </p>
+            <p>
+              <label>Lieu de résidance <input type="text" name="ville" /></label>
+            </p>
+            <p>
+              <button type="submit">Envoyer</button>
+            </p>
+          </form>
+      </h2>
+  </body>
+</html>
