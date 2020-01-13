@@ -164,6 +164,9 @@ a {
   text-align: center;
   display: inline-block;
   position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
 }
 
   .class_test:hover p.text {
@@ -183,4 +186,9 @@ a {
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
     -ms-transition: opacity .5s ease-in-out;
+}
+
+.class_test img{
+  height: 200px;
+  width: 200px;
 }
