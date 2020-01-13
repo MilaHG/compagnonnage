@@ -10,11 +10,11 @@ body {
 
 .button {
   padding: 10px 20px 10px 20px;
-  background-color: black;
+  background-color: rgba(0,0,0 , 0.7);
   color: white;
   text-decoration: none;
   border-radius: 7px;
-  box-shadow: 5px 3px 10px white;
+  box-shadow: 5px 3px 50px white;
 }
 
 .navbar {
