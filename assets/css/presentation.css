@@ -17,7 +17,6 @@ body{
 nav{
     background-color: rgba(0, 8, 12, 0.925);
     padding: 0 0;
-    position: fixed;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -89,7 +88,6 @@ nav > ul li:hover .sous{
 header{
     height: 735px;
     background:url("../img/maquettes_1.jpg") no-repeat;
-    background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,16 +173,23 @@ p{
     padding-bottom: 20px;
 }
 
-#section-5 img{
-    margin-left: 78px;
+#section-5 figure{
+    float:left;
+}
+
+#section-5 figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
 }
 
 footer{
     background-color: #1a1a1a;
     height: 50px;
     width: 100%;
-    position: absolute;
-    bottom: -3570px;
+    position: fixed;
+    top: calc(100% - 50px);
     border-top: 5px solid orange;
 }
 
