@@ -105,25 +105,25 @@ color: aliceblue }
 
 @keyframes AutoSlide {
     0% {
-        left: 0px; /1ère image/
+        left: 0px; /*1ère image*/
     }
     15% {
-        left: 0px; /idem pour attente/
+        left: 0px; /*idem pour attente*/
     }
     35% {
-        left: -500px; /2ème image/
+        left: -500px; /*2ème image*/
     }
     50% {
-        left: -500px; /idem pour attente/
+        left: -500px; /*idem pour attente*/
     }
     70% {
-        left: -1000px; /3ème image/
+        left: -1000px; /*3ème image*/
     }
     85% {
-        left: -1000px; /idem pour attente/
+        left: -1000px; /*idem pour attente*/
     }
     100% {
-        left: 0px; /1ère image/
+        left: 0px; /*1ère image*/
     }
 h1 a {
     color: rgb(255, 255, 255);
