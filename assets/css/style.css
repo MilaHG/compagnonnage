@@ -8,6 +8,15 @@ body {
   margin-bottom: 5em;
 }
 
+.button {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  box-shadow: 10px 10px 10px white;
+}
+
 .navbar {
   background-color: rgba(0,0,0 , 0.8);
   padding: 1em;
