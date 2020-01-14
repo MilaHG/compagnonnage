@@ -25,3 +25,5 @@ Made with [Github](https://github.com/)
 -------------------
 
 \ ゜o゜)ノ
+
+Contact : [![Discord Server](https://discordapp.com/widget?id=434359040701759489&theme=dark)](http://discord.gg/CHeBFN)
