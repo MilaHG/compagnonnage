@@ -24,4 +24,4 @@ Creer un site internet pour présenter le compagnonnage.
 Made with [Github](https://github.com/)
 -------------------
 
-[\ ゜o゜)ノ](https://discordapp.com/api/webhooks/666308358105726988/VpgtQiGQ7DTX2agMxxMfWUnCLMAiz9HgfLYqqexA91cOr3iIIk43BEQufdoCd1-374yU/github)
+\ ゜o゜)ノ
