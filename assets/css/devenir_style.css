@@ -100,7 +100,237 @@ header h1:hover{
 }
 a:-webkit-any-link {
 color: aliceblue }
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DCDCDC;
+}
 
+.clear{
+    clear: both;
+}
+
+nav{
+    background-color: #373737;
+    padding: 0 0;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #B76D68;
+    border-bottom: 2px solid #B76D68;
+}
+
+.sous{
+    display: none;
+    background-color: #373737;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 5px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgba(0, 8, 12, 0.925);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+
+header{
+    height: 735px;
+    background:url("../img/maquettes_1.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sections{
+
+    width: 80%;
+    height: 80%;
+    margin: 0px 10%;
+}
+
+h1{
+    margin:0;
+    padding: 20px;
+    color: #B76D68;
+    text-align: center;
+}
+
+p{
+    color: #e6e6e6;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0px 20px 20px;
+}
+
+#section-1{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: #373737;
+}
+
+.section-divider{
+    background-color: #0A3D62;
+    padding: 7px;
+    border-radius: 20px 20px;
+}
+
+#section-2{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: #373737;
+}
+
+#section-3{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: #373737;
+    margin-bottom: 22px;
+    height: 310px;
+}
+
+#section-3 img{
+    width: 14.4%;
+    margin: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+#section-4{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: #373737;
+    margin-bottom: 22px;
+    height: 545px;
+}
+
+#section-4 img{
+    margin: 20px;
+    margin-top: 0px;
+    float:left;
+}
+
+#maptourtext{
+    float:left;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: #E6E6E6;
+}
+p{
+    margin-left: 197px;
+}
+#section-5{
+    margin-top: 20px;
+    border-radius: 20px 20px;
+    background-color: #373737;
+    padding-bottom: 20px;
+}
+
+#section-5 figure{
+    float:left;
+}
+
+#section-5 figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+#button-haut{
+    position: fixed;
+    bottom: 80px;
+    right: 75px;
+    text-decoration: none;
+}
+
+#button-haut a{
+    color: #B76D68;
+}
+
+#section-1 p a{
+    color: #e6e6e6;
+}
+
+.italic{
+    float: left;
+    font-style: italic;
+}
+.IMGanimation{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px 0 gray;
+    overflow: hidden;
+    right: 100px;
+    top: 0px;
+    float: right;
+}
+.IMGanimationListe{
+    position: relative;
+    list-style: none;
+    width: 1500px;
+    padding: 0;
+    margin: 0;
+    
+    animation-name: AutoSlide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.IMGanimationListe li{
+    float: left;
+}
 
 
 @keyframes AutoSlide {
