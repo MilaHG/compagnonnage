@@ -1,7 +1,6 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    height: 800px;
     background-color: #DCDCDC;
 }
 
@@ -102,7 +101,7 @@ h1{
     color: #B76D68;
 }
 
-p, #sections li{
+p{
     color: #e6e6e6;
     font-size: 22px;
     font-weight: 500;
@@ -132,13 +131,14 @@ p, #sections li{
     border-radius: 20px 20px;
     background-color: #373737;
     margin-bottom: 22px;
+    height: 310px;
 }
 
 #section-3 img{
-    width: 47.4%;
-    margin: 15px;
-    margin-left: 34.6px;
-    margin-right: 0px;
+    width: 14.4%;
+    margin: 10px;
+    margin-left: 15px;
+    float: left;
 }
 
 #section-4{
@@ -146,7 +146,7 @@ p, #sections li{
     border-radius: 20px 20px;
     background-color: #373737;
     margin-bottom: 22px;
-    height: 650px;
+    height: 545px;
 }
 
 #section-4 img{
@@ -194,4 +194,9 @@ p, #sections li{
 
 #section-1 p a{
     color: #e6e6e6;
+}
+
+.italic{
+    float: left;
+    font-style: italic;
 }

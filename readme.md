@@ -17,7 +17,7 @@ Plus d'informations sur [Le site d'Eden School](https://www.edenschool.fr/).
 Notre Projet
 ------------
 
-Creer un site internet pour présenter le campagnonnage.
+Creer un site internet pour présenter le compagnonnage.
 - Voir `index.html`
 - Ou `assets/style.css` pour voir notre projet avec plus de détail.
 
