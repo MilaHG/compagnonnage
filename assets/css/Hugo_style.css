@@ -115,12 +115,11 @@ a:hover{
 }
 #imgfoot{
     width: 100%;
-    position: relative;
-    top: 276px;
-}
+  margin-top: 99%;
+}}
 #map{
     position: absolute;
-    top: 293px;
+    top: 353px;
     z-index: 1;
     right: 352px;
     width: 300px;
