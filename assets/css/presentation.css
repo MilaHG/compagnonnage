@@ -195,3 +195,10 @@ p, #sections li{
 #section-1 p a{
     color: #e6e6e6;
 }
+
+.ArrowAnim{
+    transition: transform 0.2s ease;
+}
+.ArrowAnim:hover{
+    transform: scale(1.2);
+}
