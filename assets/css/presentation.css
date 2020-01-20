@@ -205,9 +205,9 @@ p, #sections li{
     color: #e6e6e6;
 }
 
-.ArrowAnim{
-    transition: transform 0.2s ease;
+.AnimBTN{
+    transition: font-size 0.2s ease;
 }
-.ArrowAnim:hover{
-    transform: scale(1.2);
+.AnimBTN:hover{
+    font-size: 40px;
 }
