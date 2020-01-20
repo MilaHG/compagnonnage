@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #DCDCDC;
 }
 
@@ -80,12 +80,20 @@ nav > ul li:hover .sous{
 
 
 header{
-    height: 735px;
+    height: 400px;
     background:url("../img/maquettes_1.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+header h1{
+    color: #e6e6e6;
+    text-align: center;
+    padding: 169.5px 0px;
+    background-color: #00000054;
+    font-size: 50px;
 }
 
 #sections{
