@@ -88,6 +88,14 @@ header{
     background-size: cover;
 }
 
+header h1{
+    color: #e6e6e6;
+    text-align: center;
+    padding: 169.5px 0px;
+    background-color: #00000054;
+    font-size: 50px;
+}
+
 #sections{
 
     width: 80%;
