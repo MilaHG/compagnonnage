@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 800px;
     background-color: #DCDCDC;
 }
@@ -81,12 +81,20 @@ nav > ul li:hover .sous{
 
 
 header{
-    height: 735px;
+    height: 400px;
     background:url("../img/maquettes_1.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+header h1{
+    color: #e6e6e6;
+    text-align: center;
+    padding: 169.5px 0px;
+    background-color: #00000054;
+    font-size: 50px;
 }
 
 #sections{
@@ -99,13 +107,14 @@ header{
 h1{
     margin:0;
     padding: 20px;
+    font-weight: 500;
     color: #B76D68;
 }
 
 p, #sections li{
     color: #e6e6e6;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 0px 20px 20px;
 }
 
